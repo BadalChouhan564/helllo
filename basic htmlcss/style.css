@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: #111;
+}
+#parant{
+    height: 100%;
+    width: 100%;
+    background-color:#111;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.child{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border: 2px solid white;
+   
+    background-size: cover;
+    background-position:center;
+}
+
+#child1{
+    background-image: url(https://images.unsplash.com/photo-1486326658981-ed68abe5868e?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);  
+
+}
+    
+
+
+
+
